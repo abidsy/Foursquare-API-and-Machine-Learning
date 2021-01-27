@@ -238,6 +238,9 @@ american = ['Southern / Soul Food Restaurant', 'Food & Drink Shop',
             'Vegetarian / Vegan Restaurant', 'Seafood Restaurant']
 
 def categorize_restaurants(df):
+  """
+    returns category of restaurant
+  """
     if df['categories'] in euro:
         return 'euro'
     if df['categories'] in latino:
